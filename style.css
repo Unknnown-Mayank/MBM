@@ -1,0 +1,35 @@
+#HOME_TOP
+{
+    background-image: url(HOME1.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+#Location
+{
+    
+}
+
+.horizontal-menu {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: center; /* Center the menu items horizontally */
+}
+
+.horizontal-menu li {
+    margin: 0;
+}
+
+.horizontal-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.horizontal-menu a:hover {
+    background-color:   blueviolet;
+}
